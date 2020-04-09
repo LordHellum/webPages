@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.muscle{
+    width: 100%;
+    filter: brightness(0.5)
+}
+
+nav{
+    width: 90%;
+    position: absolute;
+    left: 10%;
+    top: 1rem;
+    
+
+}
+
+.return{
+    width: 20%;
+    position: absolute;
+    top: 3rem;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+
+.return:hover{
+    background-color: rgba(255,255,255,0.3);
+    transition: 3s;
+    
+}
+
+ul{
+    display: flex;
+    position: absolute;
+    left: 18rem;
+    
+    
+}
+
+li{
+    
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    color: #fff;
+}
+
+
+
+.nombre{
+    position: absolute;
+    top: 12rem;
+    left: 10rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+h1{
+    position: absolute;
+    top: 16rem;
+    left: 7.5rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 15px;
+    color: #fff;
+}
+
+
+article{
+    height: auto;
+    display: flex;
+}
+
+.functional,.building{
+    filter: brightness(0.5)
+}
+
+.functional{
+    width: 33rem;
+    
+}
+
+.building{
+    width: 34.2rem;
+    height: 22.3rem;
+    
+}
+
+.funct{
+   position: relative;
+   width: 25%;
+   padding: 0.5rem;
+   top: -17rem;
+   left: 12rem;
+   color: #fff;
+   border-radius: 10ox;
+   border: 1px solid #fff;
+}
+
+
+.build{
+    position: relative;
+    width: 25%;
+    padding: 0.5rem;
+    top: -17rem;
+    left: 14rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 10ox;
+    border: 1px solid #fff;
+}
+
+.build:hover{
+    background-color: rgba(250,250,250,0.7);
+    transition: 2.5s;
+    color: rgba(0,0,0,0.2)
+}
+
+.funct:hover{
+    background-color: rgba(250,250,250,0.7);
+    transition: 2.5s;
+    color: rgba(0,0,0,0.2)
+}
+
+
+.divCont{
+    width: 100%;
+    height: 33rem;
+    background-color: #e62e00;
+    position: absolute;
+    top: 53.5rem;
+}
+
+h3{
+    width: 20%;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 25.5rem;
+    top: 2rem;
+}
+
+.p3{
+    width: 20%;
+    position: absolute;
+    left: 38%;
+    top: 6rem;
+    text-align: center;
+    color: #fff; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+
+.iface{
+    position: absolute;
+    top: 105rem;
+    color: rgb(190, 187, 187);
+    font-weight: 300;
+}
+
+.inst{
+    position: absolute;
+    top: 105rem;
+    left: 9rem;
+    color: rgb(190, 187, 187);
+    font-weight: 300;
+}
+
+.back{
+    width: 100%;
+    position: absolute;
+    height: 20rem;
+    top: 86rem;
+}
+
+.foot{
+    position: absolute;
+    left: 3rem;
+    top: 87rem;
+    color: #fff;
+}
